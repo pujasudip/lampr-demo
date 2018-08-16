@@ -1,4 +1,9 @@
 {
+  "proxy": {
+    "/api/*": {
+      "target": "http://localhost:8000"
+    }
+  },
   "name": "lampr_stack",
   "version": "1.0.0",
   "description": "Starting setup for LAMPR stack demo",
